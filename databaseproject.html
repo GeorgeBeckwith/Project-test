@@ -1,0 +1,13 @@
+<html>
+    <head>
+    </head>
+    
+    <body>
+        <script>
+            const Datastore = require ("nedb");
+
+            const logindb = new Datastore ("Login.db")
+            logindb.loadDatabase();
+        </script>
+    </body>
+</html>
