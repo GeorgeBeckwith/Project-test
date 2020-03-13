@@ -6,5 +6,21 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.12.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeBeckwith/Project-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeBeckwith/Project-test/issues"
+  },
+  "homepage": "https://github.com/GeorgeBeckwith/Project-test#readme"
 }
