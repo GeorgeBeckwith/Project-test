@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DB Project</title>
+    </head>
+    <body>
+        <h1>TEST</h1>
+        <script>
+            const Datastore = require ("nedb");
+
+            const logindb = new Datastore ("Login.db")
+            logindb.loadDatabase();
+            console.log("This is a test!")
+        </script>
+    </body>
+</html>
