@@ -1,4 +1,4 @@
-console.log("JS file accessed!!")
+console.log("main.js file accessed!!")
 
 const Datastore = require("nedb");
 const logindb = new Datastore ("LogIn.db")
