@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Declares that file is HTML format-->
 <html>
     <head>
-        <title>DB Project</title>
+        <title>DB Project</title> 
     </head>
     <body>
         <h1>This is my database project</h1>
         <form>
-            <input id="name" autocomplete="off" placeholder="Name" />
-            <input id="surname" autocomplete="off" placeholder="Surname" />
-            <input type="submit" onclick="sendData()">
+            <input type="text" id="name" autocomplete="off" placeholder="Name" /> <!--Input filed for first name-->
+            <input type="text" id="surname" autocomplete="off" placeholder="Surname" /> <!--Input filed for surname-->
+            <input type="submit" onclick="sendData()"> <!--When clicked runs the js function in separate file-->
         </form>
-        <p id="results"></p>
 
-        <script src = "js/main.js"></script>
+        <script src = "js/main.js"></script> <!--Links the js file-->
     </body>
 </html>
+

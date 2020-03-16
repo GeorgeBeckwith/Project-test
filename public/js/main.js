@@ -1,6 +1,6 @@
 function sendData() {
-    var name = document.getElementById("name")
-    var surname = document.getElementById("surname")
+    var name = document.getElementById("name").value;
+    var surname = document.getElementById("surname").value;
 
     const inputs = { name, surname};
     const options = {
